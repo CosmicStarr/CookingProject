@@ -1,0 +1,144 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/lib/Cooking-IG_2.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption text-center">
+                <h1>Welcome</h1>
+                <h3>To the experience of a life time!</h3>
+                <a class="btn btn-outline-light btn-lg" asp-page="/index">START</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="~/lib/food1.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Ingredients</h1>
+                <h3>Only the Best Spices are Acceptable.</h3>
+                <button class="btn btn-outline-light">LEARN MORE</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="~/lib/TigerShrimp.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Grilled Tiger Shrimp</h1>
+                <h3>The perfect Choice to Quench your sea food cravings!.</h3>
+                <button class="btn btn-outline-light btn-lg">BUY NOW!</button>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+<hr />
+<br />
+<div id="Team">
+    <div class="col-12 text-center">
+        <h3 class="offset">Meet The Team</h3>
+        <p class="lead">These are the Chefs that made it possible for you to enjoy Five star restaurant quality meals in the comfort of your home.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        <div class="card text-center">
+            <img class="card-img-top" src="~/lib/chef2.jpg" />
+            <div class="card-body">
+                <h4><b>Norma Jean</b></h4>
+                <h5>Specialize in Breakfast</h5>
+                <p>Breakfast should the one meal no one should ever skip. It will determine wheather you have a great day or not.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card text-center">
+            <img class="card-img-top" src="~/lib/chefs600x600-1.png" />
+            <div class="card-body">
+                <h4><b>Alyssandra Jean</b></h4>
+                <h5>Fried Food Specialist</h5>
+                <p>You have a large family that's coming over for a BBQ or you simply just want to have a tasty Sunday dinner? My meals are the ones for you.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card text-center">
+            <img class="card-img-top" src="~/lib/Lloyd-Roberts-2020-.png" />
+            <div class="card-body">
+                <h4><b>Lloyd Roberts</b></h4>
+                <h5>Keto Specialist</h5>
+                <p>So, you want to take a break from all the heavy foods but you still want want something flavorful?. Ive built the perfect menu for you. </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card text-center">
+            <img class="card-img-top" src="~/lib/RevaConstantine.jpg" />
+            <div class="card-body">
+                <h4><b>Reva Constantine</b></h4>
+                <h5>Pasta & Pizza Specialist</h5>
+                <p>Pasta is an art and Ive taken the time to master a variety of meals so you can enjoy. </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card text-center">
+            <img class="card-img-top" src="~/lib/Phyllis-Armstrong.jpg" />
+            <div class="card-body">
+                <h4><b>Phyllis Armstrong</b></h4>
+                <h5>She Knows Her Spices</h5>
+                <p>Spices are the key to making amzing meals. This is the reason why i dedicated my time to learning everything i can about them.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card text-center">
+            <img class="card-img-top" src="~/lib/black-white-3.jpg" />
+            <div class="card-body">
+                <h4><b>Normand Jean</b></h4>
+                <h5>Health Food Expert</h5>
+                <p>We already know what we put into our bodies is what we become. This is why Ive came up with the perfect combination of foods to satisfy a health diet.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<hr />
+<br />
+<br />
+<br />
+<footer class="bg-dark">
+    <div id="Contact" class="offset">
+        <div class="row justify-content-center">
+            <div class="col-md-5 text-center" style="color:white;">
+                <img style="height:2rem" class="img-thumbnail" src="/lib/cookingbok.png" />
+                <p>
+                    Our goal is ensure the satisfaction of everyone of our clients<br />
+                    by using world class ingredients to prepare our foods
+                </p>
+                <strong>Contact Info</strong>
+                <p>718-856-9658<br /> NormandJ85@yahoo.com</p>
+                <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                <a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <br />
+                <br />
+                <div class="container">
+                    &copy; 2020 - CookingProject - <a class="" asp-controller="Home" asp-action="/Privacy">Privacy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

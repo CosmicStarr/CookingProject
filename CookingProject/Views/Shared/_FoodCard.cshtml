@@ -1,0 +1,22 @@
+﻿@model Food
+
+
+
+
+
+<div>
+    <div class="card">
+        <img class="card-img-top" src="@Model.ImageURL" />
+        <div class="card-body">
+            <h5 class="card-title">@Model.Name</h5>
+            <p class="card-text">@Model.Description</p>
+            <p class="text-right">$@Model.Price</p>
+            <hr />
+            <a asp-controller="Food" asp-action="Details"
+               asp-route-id="@Model.FoodID" class="btn btn-outline-secondary btn-lg">Details</a>
+            <a class="btn btn-outline-success btn-lg" asp-controller="ShoppingCart"
+               asp-action="AddToShoppingCart" asp-route-foodid="@Model.FoodID">Add to Cart</a>
+        </div>
+    </div>
+</div>
+

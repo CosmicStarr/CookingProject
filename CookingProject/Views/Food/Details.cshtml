@@ -1,0 +1,25 @@
+﻿@model Food
+
+
+<h1 class="offsets text-center">@Model.Name</h1>
+
+
+<div class="container">
+    <div>
+        <div>
+            <div class="card">
+                <img class="card-img-top" src="@Model.ImageURL" />
+                <div class="card-body">
+                    <h4 class="card-title">@Model.Name</h4>
+                    <p class="card-text">@Model.Description<br /></p>
+                    <p class="button">
+                        <a class="btn btn-primary" asp-controller="ShoppingCart"
+                           asp-action="AddToShoppingCart" asp-route-foodid="@Model.FoodID">Add to Cart</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>

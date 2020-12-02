@@ -1,0 +1,19 @@
+﻿@model SalesViewModel
+
+<partial name="_SalesCarousel" />
+
+
+
+
+
+<div class="container offsets">
+    <div class="card-columns">
+        @foreach (var Food in Model.FoodOnSale)
+        {
+            <partial name="_FoodCard" model="Food" />
+        }
+
+    </div>
+</div>
+
+
